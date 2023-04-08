@@ -1,0 +1,23 @@
+.strike{
+    text-decoration: line-through;
+}
+
+  .item{
+    color: rgb(255, 255, 255) ;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 2px, 2px,2px,2px;
+    border-radius: 20px;
+    border-color: rgb(132, 0, 255);
+}
+
+.deleteitem {
+    color:white;
+    background-color: rgb(113, 56, 113);
+    border: 4px, 4px,4px,4px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: rgb(255, 255, 255);
+    font-style: bold;
+} 

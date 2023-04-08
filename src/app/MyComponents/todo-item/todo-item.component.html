@@ -1,0 +1,18 @@
+<div class="container float-lg-right item" >
+    <h4 [class]="{'strike':!todo.active}">{{todo.name}}</h4>
+<p [class]="{'strike':!todo.active}">{{todo.desc}}</p>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" (click)="onCheck(todo)">
+    <label class="form-check-label" for="flexCheckDefault" >
+      Mark As Done
+    </label>
+
+   
+  </div>
+
+  <button class="btn deleteitem" (click)="onClick(todo)">Delete</button>
+
+</div>
+
+
